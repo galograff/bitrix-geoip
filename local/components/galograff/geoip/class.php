@@ -131,6 +131,4 @@ class GGeo extends \CBitrixComponent implements Controllerable
         $entity_data_class::Delete($get['ip']);
         return $get['ip'] . ' удален';
     }
-
-
 }

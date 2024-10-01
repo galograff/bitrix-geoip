@@ -3,7 +3,10 @@
 use Bitrix\Main\UI\Extension;
 use Bitrix\Main\Localization\Loc;
 
+Extension::load("main.jquery");
 Extension::load("ui.bootstrap4");
+
+
 ?>
 <div class="container">
     <form name="search_ip" id="search_ip" class="d-inline-flex">
